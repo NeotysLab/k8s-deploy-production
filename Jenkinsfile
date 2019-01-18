@@ -1,7 +1,7 @@
 pipeline {
   agent {
     label 'kubegit'
-  }
+  }//
   stages {
     stage('Update production versions with latest versions from staging') {
       steps {
